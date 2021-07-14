@@ -22,3 +22,41 @@
   align-self: center;
   background-color:#E16316;
 }
+
+
+.about-img2 {
+  background-image: asset-url('people.jpeg');
+  width: 100vw;
+  height: 100vh;
+  position:absolute;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+.center {
+  position:absolute;
+  top:30%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card {
+  flex: 0 0 50%;
+  width:200px;
+  text-align:center;
+  border-radius: 30px;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  background-color:#9D1C33;
+  border: 1px, solid, rgba(0,0,0,0);
+  color: white;
+}
+
