@@ -17,11 +17,18 @@
   justify-content:center;
 }
 
+
 .rectangle1 {
     width: 100vw;
     height: 700px;
     background: linear-gradient(to bottom right, #E16415 0%, #E16415 50%, #9D1C33 50%, #9D1C33 100%);
-}
+  }
+// =======
+// .forms {
+//   background: linear-gradient(to bottom left, #9D1C33 0%, #9D1C33 50%, #E16415 50%, #E16415 100%);
+// >>>>>>> c6790ae9b973dff4d5a76b940d3b3f9fd0ed75fb
+// }
+
 
 
 
@@ -30,6 +37,25 @@
     height: 700px;
    background: linear-gradient(to bottom left, #9D1C33 0%, #9D1C33 50%, #E16415 50%, #E16415 100%);
 }
+
+
+// .triangle1 {
+//   position: absolute;
+//   z-index: 3;
+//   width: 100vw;
+//   height: 50vh;
+//   border-bottom: 700px solid orange;
+//   border-left: 1500px solid green;
+
+// }
+
+// .triangle2 {
+//   width: 50vw;
+//   height: 100vh;
+//   border-top: 700px solid orange;
+//   border-left: 1500px solid brown;
+// }
+
 
 .about-img2 {
   background-image: asset-url('people.jpeg');
@@ -47,7 +73,6 @@
   right: 0;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .card {
