@@ -17,22 +17,18 @@
   justify-content:center;
 }
 
-.triangle1 {
-  display:flex;
-  align-self: center;
+.rectangle1 {
     width: 100vw;
-    height: 50vh;
-    border-bottom: 700px solid orange;
-    border-left: 1500px solid green;
+    height: 700px;
+    background: linear-gradient(to bottom right, #E16415 0%, #E16415 50%, #9D1C33 50%, #9D1C33 100%);
 }
 
-.triangle2 {
-  display:flex;
-  align-self: center;
-    width: 50vw;
-    height: 100vh;
-    border-top: 700px solid orange;
-    border-left: 1500px solid brown;
+
+
+.rectangle2 {
+    width: 100vw;
+    height: 700px;
+   background: linear-gradient(to bottom left, #9D1C33 0%, #9D1C33 50%, #E16415 50%, #E16415 100%);
 }
 
 .about-img2 {
@@ -71,14 +67,20 @@
 }
 
 .horny {
-
-
+  padding-left: 10px;
 }
 
-.trust {
+.trust1 {
+  padding-left: 500px;
+  padding-top: 520px;
+}
 
+.trust2 {
+ padding-left: 500px;
+ padding-bottom: 520px;
 }
 
 .mission {
-
+ padding-left: 10px;
+ padding-bottom: 30px;
 }
