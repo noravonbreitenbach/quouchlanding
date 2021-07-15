@@ -17,17 +17,28 @@
   justify-content:center;
 }
 
-.flex-container {
+.triangle1 {
   display:flex;
   align-self: center;
-  background-color:#E16316;
+    width: 100vw;
+    height: 50vh;
+    border-bottom: 700px solid orange;
+    border-left: 1500px solid green;
 }
 
+.triangle2 {
+  display:flex;
+  align-self: center;
+    width: 50vw;
+    height: 100vh;
+    border-top: 700px solid orange;
+    border-left: 1500px solid brown;
+}
 
 .about-img2 {
   background-image: asset-url('people.jpeg');
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   position:absolute;
   background-position:center;
   background-repeat: no-repeat;
@@ -57,6 +68,17 @@
   background-clip: border-box;
   background-color:#9D1C33;
   border: 1px, solid, rgba(0,0,0,0);
-  color: white;
 }
 
+.horny {
+
+
+}
+
+.trust {
+
+}
+
+.mission {
+
+}
