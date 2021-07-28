@@ -1,17 +1,160 @@
-<div class="container">
-  <div class="banner">
-    <h1>quouch</h1>
-      <p>couchsurfing from a female & queer perspective</p>
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Team</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Tech</a>
+      </li>
+      <li class="nav-item dropdown">
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+        </div>
+      </li>
+    </ul>
   </div>
-
 </div>
 
+
+
+  <div class="flex-container">
+  <div class="banner">
+    <h1 class="center">quouch</h1>
+      <p class="center">couchsurfing from a female & queer perspective</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="paragraph">
+      <br>
+      <br>
+      <h2>Couchsurfing without the annoying risk of again
+          ending up at a lonely horny weird guys home can be wonderful.
+          Sex is a driving force of many things people do, including offering travelers their home.
+          but if there was a plattform, only for those rather suffering under that driving force,
+          than enjoying it mutually, then this can open up new doors for free and exciting traveling.</h2>
+      <br>
+      <br>
+  </div>
+</div>
+
+<div class="container">
+  <div class="missionn">
+     <div class="text">
+       <div class="label">
+        <p>about</p>
+        </div>
+        <h2 class="header"> What we do </h2>
+       <p>I was traveling for 3 years after finishing school, using Couchsurfing a lot.
+        But at some point I got so fed up with this implicit space I felt I was navigating myself in ALL the time,
+        which is constantly finding the balance
+        between setting my boundaries and staying polite, since you stay at another persons home, that I could not be bothered anymore
+        to use it.
+        We thought, it's time for an alternative platform! </p>
+        <div class="button">learn more</div>
+     </div>
+     <div class="img-horny">
+    </div>
+  </div>
+    <br>
+    <br>
+</div>
+
+<div class="container">
+  <div class="missionn">
+     <div class="img-team">
+    </div>
+      <div class="text1">
+        <div class="label">
+          <p>team</p>
+        </div>
+        <h2 class="header"> Who we are</h2>
+       <p>I was traveling for 3 years after finishing school, using Couchsurfing a lot.
+        But at some point I got so fed up with this implicit space I felt I was navigating myself in ALL the time,
+        which is constantly finding the balance
+        between setting my boundaries and staying polite, since you stay at another persons home, that I could not be bothered anymore
+        to use it.
+        We thought, it's time for an alternative platform! </p>
+        <div class="button">learn more</div>
+     </div>
+  </div>
+    <br>
+    <br>
+</div>
+
+<div class="container">
+  <div class="missionn">
+     <div class="text2">
+      <div class="label">
+        <p>trust</p>
+        </div>
+        <h2 class="header"> How do you trust a person? </h2>
+       <p>I was traveling for 3 years after finishing school, using Couchsurfing a lot.
+        But at some point I got so fed up with this implicit space I felt I was navigating myself in ALL the time,
+        which is constantly finding the balance
+        between setting my boundaries and staying polite, since you stay at another persons home, that I could not be bothered anymore
+        to use it.
+        We thought, it's time for an alternative platform! </p>
+        <div class="button">learn more</div>
+     </div>
+    <div class="img-trust">
+    </div>
+  </div>
+    <br>
+    <br>
+</div>
+
+<div class="flex-container">
+  <div class="about-img2">
+    <div class="container center" id="signup">
+      <div class="sign-up">
+       <%= form_for @user_signup do |f| %>
+      <% if @user_signup.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@user_signup.errors.count, "error") %> prohibited your registration from being completed:</h2>
+          <ul>
+          <% @user_signup.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+          </ul>
+           </div>
+      <% end %>
+      </div>
+      <div class="card center">
+           <div class="field">
+              <%= f.label :email %><br>
+              <%= f.text_field :email %>
+            </div>
+            <div class="actions">
+              <input type="submit" name="commit" value="Sign Up" data-disable-with="Create User signup">
+             <!--  <%= f.submit %> -->
+            </div>
+          <% end %>
+      </div>
+     </div>
+  </div>
+</div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>©Quouch 2021</p>
+    </div>
+  </footer>
+<!--
 <div class="flex-container">
   <div class="rectangle1">
     <div class="horny">
         <h2>Couchsurfing without the annoying risk of again
-          ending up at a lonely horny weird guys home can be wonderful. Sex is a driving force of many things people do, including offering travelers their home.</h2>
-          <p>but if there was a plattform, only for those rather suffering under that driving force, than enjoying it mutually, then this can open up new doors for free and exciting traveling.</p>
+          ending up at a lonely horny weird guys home can be wonderful.
+          Sex is a driving force of many things people do, including offering travelers their home.
+          but if there was a plattform, only for those rather suffering under that driving force,
+        than enjoying it mutually, then this can open up new doors for free and exciting traveling.</h2>
     </div>
      <div class="trust1">
         <h2>So how do you trust a person?</h2>
@@ -31,7 +174,7 @@
   We thought, it's time for an alternative platform! </h2>
     </div>
       </div>
-</div>
+</div> -->
 
 <!-- We support female and queer-identifying individuals to couchsurf in a relaxed way among their peers.
 Couchsurfing.org is a male-dominated platform, and since people often assume very different viewpoints when using it, we saw the potential to launch a second platform.
@@ -108,40 +251,4 @@ Speaking of the increased supply, -->
  -->
 
 
-<div class="flex-container">
-  <div class="about-img2">
-    <div class="container center" id="signup">
-      <div class="sign-up">
-       <%= form_for @user_signup do |f| %>
-      <% if @user_signup.errors.any? %>
-        <div id="error_explanation">
-          <h2><%= pluralize(@user_signup.errors.count, "error") %> prohibited your registration from being completed:</h2>
-          <ul>
-          <% @user_signup.errors.full_messages.each do |msg| %>
-            <li><%= msg %></li>
-          <% end %>
-          </ul>
-           </div>
-      <% end %>
-      </div>
-      <div class="card">
-           <div class="field">
-              <%= f.label :email %><br>
-              <%= f.text_field :email %>
-            </div>
-            <div class="actions">
-              <input type="submit" name="commit" value="Sign Up" data-disable-with="Create User signup">
-             <!--  <%= f.submit %> -->
-            </div>
-          <% end %>
-      </div>
-     </div>
-  </div>
-</div>
 
-
-  <footer class="footer">
-    <div class="container">
-      <p>©Quouch 2021</p>
-    </div>
-  </footer>
