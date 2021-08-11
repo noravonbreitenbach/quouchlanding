@@ -1,6 +1,6 @@
 .banner {
   height: calc(100vh - 10vh);
-  background-image: asset-url('sun.jpg');
+  background-image: asset-url('burn.jpeg');
   display: flex;
   justify-content:center;
   background-size: cover;
@@ -8,11 +8,13 @@
   text-align: center;
 }
 .banner h1 {
-  font-size: 120px;
-  color: white;
-  //padding-top: 226px;
-  text-shadow:1px 1px 2px #000000;
-  font-weight: 300;
+  // font-size: 75px;
+  // color: white;
+  padding-top:340px;
+  // text-shadow:1px 1px 2px #000000;
+  // font-weight: 300;
+  color: #efefef;
+  font-size: 5vw;
 }
 
 .banner p {
@@ -21,5 +23,5 @@
   font-weight:500;
   font-size:18px;
   text-shadow:1px 1px 2px #000000;
-  padding-top: 157px;
+  padding-top: 100px;
 }
