@@ -2,8 +2,10 @@ class PagesController < ApplicationController
 
   def team
   end
-  def tech
+  def about
   end
   def impressum
+  end
+  def home
   end
 end

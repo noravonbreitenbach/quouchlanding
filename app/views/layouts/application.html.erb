@@ -12,21 +12,41 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
-    <!--   navbar -->
-    <!-- <div class="bg-img">
-      <div class="container">
-        <div class="topnav">
-        <h1 class="logo">Quouch</h1>
+ <div class="navbar3">
+      <div class="container flex">
+        <!-- <h1 id="logo">Quouch</h1> -->
         <nav>
           <ul>
-            <li><a href="new.html.erb">Home</a></li>
-            <li><a href="about.html.erb">About</a></li>
-            <li><a href="team.html.erb">Team</a></li>
-            <li><a href="tech.html.erb">Tech</a></li>
+            <!-- <li><a href="home">Home</a></li> -->
+            <li><a href="new">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="team">Team</a></li>
           </ul>
         </nav>
       </div>
-    </div> -->
+    </div>
+
+
     <%= yield %>
+    <div class=" footer bg-dark grid1 grid1-3">
+      <div class="container list-items">
+        <ul>
+          <li class="list-item"><a href="impressum">Impressum </a></li>
+          <li class="list-item"><a href="impressum">Datenschutz </a></li>
+          <li class="list-item"><a href="impressum">Kontakt </a></li>
+          <li class="list-item"><p> &copy; quouch 2021</p></li>
+        </ul>
+
+     </div>
+
+
+    <!--   <div class="social">
+        <a href="#"><i class="fab fa- fa-2x"></i></a>
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      </div> -->
+
+    </div>
   </body>
 </html>
+

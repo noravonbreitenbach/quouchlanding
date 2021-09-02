@@ -1,12 +1,48 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Gloria+Hallelujah&family=Permanent+Marker&family=Quicksand:wght@300;400;500;600&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;600&family=Inter:wght@200;300;400;500&family=Kaisei+HarunoUmi:wght@400;500;700&family=Kaisei+Tokumin:wght@400;500;700;800&family=Playfair+Display:wght@400;500;600&family=Raleway:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Cabin+Sketch&family=Cantata+One&family=DM+Serif+Text&family=Gelasio:wght@400;500&family=Gowun+Batang:wght@400;700&family=Karma:wght@300;400;500&family=Lusitana&family=Marcellus&family=Rock+Salt&family=Rufina:wght@400;700&family=Special+Elite&family=Tenor+Sans&family=Yeseva+One&display=swap');
+
 // Define fonts for body and headers
-//$body-font: 'Quicksand', sans-serif;
-$body-font: 'Montserrat', sans-serif;
-//$headers-font: "Nunito", "Helvetica", "sans-serif";
-//$headers-font: 'Raleway', sans-serif;
-$headers-font: 'Cormorant Garamond', serif;
+// $body-font: 'Quicksand', sans-serif;
+
+
+
+// $body-font: 'Cormorant Garamond', serif;
+
+// $body-font:  'Inter', sans-serif;
+// $headers-font:  'Kaisei HarunoUmi', serif;
+// $headers-font:  'Kaisei Tokumin', serif;
+
+
+// $headers-font: 'Arbutus Slab', serif;
+// $headers-font: 'Cabin Sketch', cursive;
+
+
+$headers-font: 'Gelasio', serif;
+
+
+// $headers-font: 'Lusitana', serif;
+
+
+// $body-font: 'Rufina', serif;
+$body-font: 'Raleway', serif;
+// $body-font: 'Cabin Sketch', cursive;
+// $headers-font: 'Special Elite', cursive;
+
+
+
+
+
+// font-family: 'Fira Sans', sans-serif;
+// font-family: 'Inter', sans-serif;
+// font-family: 'Kaisei HarunoUmi', serif;
+// font-family: 'Kaisei Tokumin', serif;
+// font-family: 'Playfair Display', serif;
+// font-family: 'Raleway', sans-serif;
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {

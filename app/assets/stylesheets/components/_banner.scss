@@ -1,58 +1,90 @@
 
 
-@media only screen and (min-width: 375px) {
+// @media only screen and (min-width: 375px) {
 
 
-  .banner {
-    height: 100vh;
-  //height: calc(100vh - 10vh);
-  //width: 100vw;
-  background-image: asset-url('burn.jpeg');
-  //display: flex;
-  //justify-content:center;
-  background-size: cover;
-  //background-position: center;
-  text-align: center;
-  //width: 100vw;
+//   .banner {
+//     height: 100vh;
+//   //height: calc(100vh - 10vh);
+//   //width: 100vw;
+//   background-image: asset-url('burn.jpeg');
+//   //display: flex;
+//   //justify-content:center;
+//   background-size: cover;
+//   //background-position: center;
+//   text-align: center;
+//   //width: 100vw;
 
-  }
+//   }
 
-  .banner h1 {
-    padding-top:340px;
-    color: #efefef;
-    font-size: 10vw;
-  }
+//   .banner h1 {
+//     padding-top:340px;
+//     color: #efefef;
+//     font-size: 10vw;
+//   }
 
-  .banner p {
-      font-size: 20px;
-      color: white;
-      font-weight:500;
-      font-size:18px;
-      text-shadow:1px 1px 2px #000000;
-      padding-top: 100px;
-  }
- }
+//   .banner p {
+//       font-size: 20px;
+//       color: white;
+//       font-weight:500;
+//       font-size:18px;
+//       text-shadow:1px 1px 2px #000000;
+//       padding-top: 100px;
+//   }
+//  }
 
-@media only screen and (min-width: 768px) {
 
- }
+.banner {
 
-@media only screen and (min-width: 1000px) {
-
-   .banner {
+  //height: 925px;
+  //top: 30;
   height: calc(100vh - 10vh);
-  background-image: asset-url('burn.jpeg');
+  background-image: asset-url('burn2.jpeg');
+  //display: flex;
+  justify-content:center;
+  background-size: cover;
+  padding-top: 30px;
+  //background-position: center bottom;
+  background-position-x: center;
+  background-position-y: 70%;
+  text-align: center;
+
+
+    //width: 100%;
+    //display: inline-flex;
+
+
+
+    //margin: 0px 10px;
+    //float: bottom;
+    //width: 150px;
+    //height: 38px;
+
+}
+
+.banner2 {
+  height: 70vh;
+  background-image: asset-url('people.jpeg');
   //display: flex;
   justify-content:center;
   background-size: cover;
   background-position: center;
   text-align: center;
+  color: white;
 }
+.banner .container {
+  padding: 10px;
+}
+
+// .banner h1 {
+//   margin: 0 auto;
+//   padding-top: 100px;
+// }
 
 .banner h1 {
   // font-size: 75px;
   // color: white;
-  padding-top:340px;
+  padding-top:285px;
   // text-shadow:1px 1px 2px #000000;
   // font-weight: 300;
   color: #efefef;
@@ -67,7 +99,7 @@
   text-shadow:1px 1px 2px #000000;
   padding-top: 100px;
 }
-}
+
 
 
 

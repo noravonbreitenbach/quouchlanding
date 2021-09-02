@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 root 'user_signups#new'
 
 
+get 'new', to: 'user_signups#new'
+get 'about', to: 'pages#about'
 get 'team', to: 'pages#team'
 get 'tech', to: 'pages#tech'
 get 'impressum', to: 'pages#impressum'
