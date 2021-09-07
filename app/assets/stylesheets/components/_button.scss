@@ -14,35 +14,65 @@
 //     width: 40%;
 // }
 
-.button:hover {
-  opacity: 0.5;
+.button1:hover {
+  background-color:#BA4C4F;
+  text-decoration:none;
+  color: white;
+  // opacity: 0.5;
+
+}
+
+
+.button2:hover {
+  background-color:#800080;
+  text-decoration:none;
+  color: white;
+  // opacity: 0.5;
+
 }
 
 .button1 {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 20px 40px;
   cursor: pointer;
-  background: #e16415;
+  background: black;
   color: white;
   border: none;
-  border-radius: 30px;
-  font-family: $headers-font;
+  border-radius: 7px;
+  font-family: 'Poiret One', cursive !important;
   margin-top: 35px;
-  margin-left:250px;
+  margin-left:50px;
+  font-size: 30px;
+
 }
 
 .button2 {
-   display: inline-block;
-  padding: 10px 30px;
+  display: inline-block;
+  padding: 15px 25px;
   cursor: pointer;
-  background: #e16415;
+  background: black;
   color: white;
   border: none;
-  border-radius: 30px;
-  font-family: $headers-font;
+  border-radius: 7px;
+  font-family: 'Poiret One', cursive !important;
   margin-top: 35px;
-  margin-left:0px;
+  margin-left: 0px;
+  font-size: 20px;
+
 }
+
+// .button2 {
+//    display: inline-block;
+//   padding: 10px 30px;
+//   cursor: pointer;
+//   background: black;
+//   color: white;
+//   border: none;
+//   border-radius: 30px;
+//   font-family: $headers-font;
+//   margin-top: 35px;
+//   margin-left:0px;
+// }
 
 
 .button, input {

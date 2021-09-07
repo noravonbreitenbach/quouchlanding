@@ -8,4 +8,6 @@ class PagesController < ApplicationController
   end
   def home
   end
+  def kontakt
+  end
 end

@@ -9,4 +9,5 @@ get 'about', to: 'pages#about'
 get 'team', to: 'pages#team'
 get 'tech', to: 'pages#tech'
 get 'impressum', to: 'pages#impressum'
+get 'kontakt', to: 'pages#kontakt'
 end

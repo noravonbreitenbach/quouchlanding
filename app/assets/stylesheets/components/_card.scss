@@ -17,6 +17,123 @@
   //background-color: #9D1C33;
   //padding: 200px 50px 0px 50px;
 }
+.header h1 {
+  margin-top: 60px;
+  //margin-bottom: 30px;
+  text-align: center;
+z-index: 1000;
+  font-size: 300px;
+  position:relative;
+  color: white;
+  text-shadow: 1px solid black;
+  padding-left: 100px;
+
+}
+.impressum {
+  margin-top: 100px;
+  margin-bottom: 250px;
+}
+.header2 h1 {
+    margin-top: 60px;
+  //margin-bottom: 30px;
+  text-align: center;
+z-index: 1000;
+  font-size: 200px;
+  position:relative;
+  color: white;
+  text-shadow: 1px solid black;
+  padding-left: 100px;
+}
+
+.nora-img {
+  background-image: asset-url('Nora3.jpeg');
+   width: 600px;
+  height: 700px;
+z-index: 0;
+
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  // position:absolute;
+  margin-top: -200px;
+
+  //position: relative;
+}
+
+// .nora-vid {
+//   // background-image: asset-url('nora.mov');
+//    width: 600px;
+//   height: 700px;
+// z-index: 0;
+
+//   // background-repeat:no-repeat;
+//   // background-size: cover;
+//   // background-position: center;
+//   // position:absolute;
+//   margin-top: -200px;
+
+//   //position: relative;
+// }
+
+
+.team {
+
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  //justify-content: center;
+  //align-items: center;
+  //height: 100%;
+}
+.team2 {
+   display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 80px;
+}
+
+.s_paragraph {
+  margin-top: -30px;
+}
+
+.s_paragraph p {
+padding-right: 60px;
+display: inline-block;
+ // position: relative;
+}
+
+.s_paragraph2 {
+  padding-left: 60px;
+  padding-top:200px;
+  display:inline-block;
+}
+
+.jeanie-img {
+  background-image: asset-url('Jeanie2.jpeg');
+   width: 650px;
+  height: 700px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 80px;
+  // margin-right: 200px;
+  margin-bottom: 100px;
+  //position: relative;
+}
+
+
+.typing h1 {
+  // font-family: 'Poiret One', cursive !important;
+  font-family: 'DM Serif Display', serif !important;
+}
+
+.typing h2 {
+  font-family: 'DM Serif Display', serif;
+  padding-left: 40px;
+  padding-right: 30px;
+  color: black;
+}
 .border {
   border-bottom: 20px solid #D8B1C9;
   border-right: 20px solid #330066;
@@ -40,7 +157,8 @@
 
 .paragraph p {
   padding: 0px 50px;
-  font-size: 16px;
+  font-size: 30px;
+  color: black;
 }
 
 .paragraph h1 {
@@ -49,6 +167,8 @@
   padding-bottom: 30px;
   padding: 0px 50px;
   color: black;
+  font-family: 'DM Serif Display', serif;
+
 }
 
 .paragraph1 {
@@ -97,13 +217,26 @@
   //text-shadow: 0 0 5px #FF0000;
   font-size: 10px;
  font-weight: normal;
+  padding:12px;
+
 
 }
 
 .paragraph2 p {
   font-size: 25px;
-  font-weight: lighter;
+  font-weight: bolder;
+  font-family: 'Poiret One', cursive !important;
+
+
+  text-align: center;
 }
+
+// .paragraph2 h3 {
+//   font-size: 25px;
+//   //font-weight: lighter;
+//   font-family:'Arbutus Slab', serif !important;
+// }
+
 
 .lapurple1 {
     //border-bottom: 20px solid purple;
@@ -192,10 +325,13 @@
 .seen-on {
   display:flex;
   justify-content: center;
-  margin-left:300px;
+  margin-left:310px;
 width: 40%;
-height: 10vh;
-margin-top: -100px;
+height: 7.5vh;
+margin-top: -90px;
+color:white;
+font-weight: normal !important;
+// text-shadow: 0 0 5px black;
 }
 
 .hu-logo {
@@ -206,13 +342,16 @@ margin-top: -100px;
   background-size: cover;
   position: relative;
   background-position: right;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .logos {
   display: flex;
   justify-content: space-around;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
 }
 
 .background {
@@ -254,10 +393,25 @@ padding-left: 20px;
     color: white;
     font-size: 50px;
     font-weight: bold;
-
-
-
 }
+.text2 h3 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+.text2 p {
+
+  font-size: 20px;
+  color: black;
+}
+
+// .text2 h3 {
+//   color: black;
+// }
 
 // .jeanie-img {
 //     background-image: asset-url('jeanie.jpeg');
@@ -268,30 +422,9 @@ padding-left: 20px;
 //   background-position: center;
 // }
 
-.nora-img {
-  background-image: asset-url('nora.jpeg');
-   width: 250px;
-  height: 333px;
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  margin-top: 30px;
 
-  //position: relative;
-}
 
-.jeanie-img {
-  background-image: asset-url('jeanie.jpeg');
-   width: 250px;
-  height: 333px;
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  margin-top: 30px;
-  //position: relative;
-}
+
 .img-horny {
   background-image: asset-url('black.jpeg');
   width: 50vw;

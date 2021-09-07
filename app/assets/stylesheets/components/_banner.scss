@@ -81,14 +81,30 @@
 //   padding-top: 100px;
 // }
 
-.banner h1 {
+ .banner h1 {
   // font-size: 75px;
   // color: white;
-  padding-top:285px;
+  padding-top:90px;
+
+
+  // margin:auto;
   // text-shadow:1px 1px 2px #000000;
   // font-weight: 300;
   color: #efefef;
-  font-size: 5vw;
+  // font-family:'Antic Didone', serif, !important;
+  // font-size: 5vw;
+  // font-family: 'Kaisei Tokumin', cursive !important;
+  // font-family: 'Rufina', serif !important;
+  font-family: 'Poiret One', cursive !important;
+  // font-family: 'EB Garamond', serif !important;
+  // font-family: 'Italiana', serif !important;
+ // font-family: 'Prata', serif !important;
+// font-family: 'EB Garamond', serif !important;
+
+  // font-family: 'Arbutus Slab', serif !important;
+  // font-family: 'Cabin Sketch', cursive !important;
+  font-weight: lighter;
+
 }
 
 .banner p {
