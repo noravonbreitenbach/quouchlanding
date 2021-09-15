@@ -1,2 +1,0 @@
-# class UserSignup < ApplicationRecord
-# end
