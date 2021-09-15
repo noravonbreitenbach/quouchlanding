@@ -45,6 +45,12 @@
   //padding: 200px 50px 0px 50px;
 }
 
+.rectangle111 {
+  height: 40vh;
+  width: 50vw;
+  margin-left: 400px;
+}
+
 .paragraph_q h1 {
     margin: auto 0px;
   font-size: 60px;
@@ -93,12 +99,137 @@ z-index: 1000;
   //margin-bottom: 30px;
   text-align: center;
 z-index: 1000;
-  font-size: 200px;
+  font-size: 150px;
   position:relative;
   color: white;
   text-shadow: 1px solid black;
   padding-left: 100px;
+  margin-bottom: 50px;
 }
+
+.prague {
+  background-image: asset-url('prag2.jpg');
+     width: 600px;
+  height: 600px;
+z-index: 0;
+margin-left: 50px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+
+    // position:absolute;
+
+}
+
+.prague-section {
+  padding-top: 100px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #9D1C33;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+.header12 {
+
+  //margin-bottom: 30px;
+  text-align: left;
+z-index: 1000;
+  font-size: 100px;
+  position:relative;
+  color: white;
+  text-shadow: 1px solid black;
+margin-left: -50px;
+  //margin-bottom: 50px;
+  width: 50vw;
+}
+.header13 {
+   //margin-bottom: 30px;
+  text-align: left;
+z-index: 1000;
+  font-size: 100px;
+  position:relative;
+  color: white;
+  text-shadow: 1px solid black;
+margin-left: 50px;
+margin-top: -250px;
+  //margin-bottom: 50px;
+  width: 50vw;
+}
+.big {
+  color: black;
+  font-size: 150px;
+}
+.big2 {
+  color: white;
+  font-size: 150px;
+  margin-top: 380px;
+  margin-left: 30px;
+}
+
+.mila-section {
+    margin-top: 100px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mila {
+  background-image: asset-url('Milablau.jpeg');
+     width: 600px;
+  height: 700px;
+z-index: 0;
+padding-right: 10px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  // position:absolute;
+  margin-top: -150px;
+}
+
+.monument {
+  background-image: asset-url('monument2.jpeg');
+    width: 600px;
+  height: 700px;
+z-index: 0;
+  //margin-left: 10px;
+  padding-left: 40px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -80px;
+
+  // position:absolute;
+  //margin-top: -200px;
+}
+.blackk {
+  background-color: black;
+  color: white;
+  margin-top: -50px;
+  border-bottom: 30px solid purple;
+}
+.redd {
+background-color: #9D1C33;
+color: white;
+
+}
+
+.rectangle112 {
+  height: 50vh;
+  width: 50vw;
+  margin-left: 400px;
+    background-color: purple;
+color: white;
+}
+
+.rectangle113 {
+  height: 50vh;
+  width: 50vw;
+  margin-left: 400px;
+    background-color: black;
+color: white;
+}
+
+
 
 .nora-img {
   background-image: asset-url('Nora3.jpeg');
@@ -396,7 +527,7 @@ font-weight: normal !important;
 }
 
 .background {
-  background: linear-gradient(to left, orange 50%, #B43C3F 50%);
+  background: linear-gradient(to left, #FFA500 50%, #9D1C33 50%);
   //#90C4CE; #FFCA63 #023AED
 
 }

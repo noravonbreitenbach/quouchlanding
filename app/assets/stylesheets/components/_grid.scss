@@ -1,5 +1,22 @@
 
 .paragraph2 .container {
+.overlap-group {
+  height: 416px;
+  margin-bottom: 24.0px;
+  position: relative;
+  width: 588px;
+}
+
+.overlap-group1 {
+height: 769px;
+position: relative;
+width: 588px;
+}
+.overlap-group2 {
+  height: 630px;
+  position: relative;
+  width: 588px;
+}
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
   padding: 30px;
@@ -11,14 +28,180 @@
   gap: 30px;
 }
 
+.grid-conts {
+  display: grid;
 
+grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px;
+  justify-content: center;
+
+  align-items: center;
+  height: 100%;
+    //overflow: hidden;
+  width: 80%;
+
+}
+.orangefun {
+  background-color: #d36c2f;
+  height: 226px;
+  margin-top:379px;
+  margin-left: 300px;
+
+  //left:0;
+
+  // position: absolute;
+  //width: 100px;
+}
+
+.purplefun {
+background-color: #aa5564;
+height: 465px;
+margin-top:140px;
+// position: absolute;
+
+//width: 100px;
+
+}
+
+
+.redfun {
+background-color: #9d1c33;
+height: 762px;
+margin-right: 300px;
+
+// position: absolute;
+
+//width: 100px;
+}
+
+.overlap-group {
+  height: 316px;
+  margin-bottom: 24.0px;
+  position: relative;
+  width: 300px;
+}
+
+.overlap-group1 {
+height: 669px;
+position: relative;
+width: 300px;
+}
+.overlap-group2 {
+  height: 530px;
+  position: relative;
+  width: 300px;
+}
+
+
+
+
+.x12-title {
+  align-items: flex-end;
+  background-color: #ffa503;
+  display: flex;
+  height: 1080px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.flex-col12 {
+  align-items: flex-start;
+  display:flex;
+  flex-direction: column;
+  margin-bottom: -165px;
+  margin-left: 156px;
+  min-height: 1130px;
+  width: 1176;
+}
+.title {
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 150px;
+  width: 856px;
+}
+.number {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-right: 161px;
+  margin-top: 169px;
+  min-height: 150px;
+  width: 264px;
+}
+
+.flew-row12 {
+  align-items: center;
+  display: flex;
+  margin-top: 4px;
+  min-width: 1176px;
+}
+
+
+
+.cs-platform {
+  left: 34px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 235px;
+  width: 521px;
+}
 
 // .missionn1 .grid1 {
 //    overflow: visible;
 //   grid-template-columns: 55% 45%;
 //   gap: 30px;
 // }
+.number-1 {
+  left: 163px;
+  letter-spacing: 0;
+  position: absolute;
+  top:0;
+  width: 264px;
+}
 
+.text-2 {
+  left: 35px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  width: 521px;
+
+}
+
+.flex-col-12 {
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  margin-bottom: -7px;
+  min-height: 919px;
+  width: 588px;
+}
+
+.number-2 {
+  letter-spacing: 0;
+  margin-left: 2.0px;
+  min-height: 150px;
+  width: 264px;
+}
+
+.text-1 {
+left: 50px;
+letter-spacing: 0;
+position: absolute;
+text-align: center;
+top: 588px;
+width: 521px;
+}
+
+.texttt {
+  left: 35px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 521px;
+}
 .grid1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -27,6 +210,7 @@
   align-items: center;
   height: 100%;
 }
+
 
 .grid1-3 {
   grid-template-columns: repeat(3, 1fr);
