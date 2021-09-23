@@ -1,15 +1,15 @@
 class PagesController < ApplicationController
 
-  def new
+  def home
   end
   def team
   end
-  def about
+  def vision
   end
   def impressum
   end
-  def home
-  end
+  # def home
+  # end
   def kontakt
   end
 end

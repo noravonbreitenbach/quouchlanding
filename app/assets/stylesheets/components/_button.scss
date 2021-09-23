@@ -1,36 +1,3 @@
-// .button {
-//   padding: 12px 25px;
-//   margin: -5px;
-//     border-radius: 16px;
-//     background-color: #e16415;
-//     -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
-//     transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
-//     color: #fff;
-//     font-size: 12px;
-//     line-height: 20px;
-//     letter-spacing: 2px;
-//     text-decoration: none;
-
-//     width: 40%;
-// }
-
-// .button1:hover {
-//   background-color:#BA4C4F;
-//   text-decoration:none;
-//   color: white;
-//   // opacity: 0.5;
-
-// }
-
-
-.button2:hover {
-  background-color:#800080;
-  text-decoration:none;
-  color: white;
-  // opacity: 0.5;
-
-}
-
 .button1 {
   display: inline-block;
   padding: 20px 40px;
@@ -60,6 +27,17 @@
   font-size: 20px;
 
 }
+
+
+.button2:hover {
+  background-color:#800080;
+  text-decoration:none;
+  color: white;
+  // opacity: 0.5;
+
+}
+
+
 
 .contact-button {
 

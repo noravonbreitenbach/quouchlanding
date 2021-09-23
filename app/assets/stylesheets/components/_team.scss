@@ -1,0 +1,11 @@
+.team {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+}
+
+.team2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 80px;
+}

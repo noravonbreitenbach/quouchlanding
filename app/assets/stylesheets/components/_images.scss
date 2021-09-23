@@ -1,0 +1,130 @@
+.prague {
+  height: calc(100vh - 10vh);
+  background-image: asset-url('prag2.jpg');
+  width: 100vw;
+  z-index: 0;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left:35px;
+  border-top: 10px solid purple;
+  border-right: 10px solid purple;
+  // border-left: 10px solid #purple;
+  // height: 100vh;
+  //margin-left: 50px;
+  // position:absolute;
+}
+
+.mila {
+  background-image: asset-url('mila1.jpg');
+  width: 45vw;
+  height: 90vh;
+  z-index: 0;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 100px;
+  margin-top: -150px;
+  border-top: 10px solid #9D1C33;
+  border-right: 10px solid #9D1C33;
+  position:relative;
+  // position:absolute;
+  // border-left: 10px solid #9D1C33;
+  //padding-right: 10px;
+}
+
+.monument {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: asset-url('monument2.jpeg');
+  width: 50vw;
+  height: 700px;
+  z-index: 0;
+  padding-left: 40px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -80px;
+  //margin-left: 10px;
+  // position:absolute;
+  //margin-top: -200px;
+}
+
+.nora-img {
+  background-image: asset-url('Nora3.jpeg');
+  width: 600px;
+  height: 700px;
+  z-index: 0;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -200px;
+  // position:absolute;
+  //position: relative;
+}
+
+.jeanie-img {
+  background-image: asset-url('Jeanie2.jpeg');
+  width: 650px;
+  height: 700px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  // margin-right: 200px;
+  //position: relative;
+}
+
+.img-horny {
+  background-image: asset-url('black.jpeg');
+  width: 50vw;
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+  border-left: 10px solid purple;
+}
+
+.img-team {
+   background-image: asset-url('girls_sun.jpeg');
+  width: 35vw;
+  height: 55vh;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.img-trust {
+  background-image: asset-url('coool.jpg');
+  width: 50vw;
+  height: 70vh;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index:5;
+}
+
+.img-sunglasses {
+  background-image: asset-url('sunglasses.jpeg');
+  width: 50vw;
+  height: 100vh;
+  background-repeat:no-repeat;
+  background-size: cover;
+  //position: relative;
+}
+
+.about-img2 {
+  background-image: asset-url('people.jpeg');
+  width: 100vw;
+  height: 100vh;
+  position:relative;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
